@@ -1,0 +1,42 @@
+﻿text,polarity,joy,sadness,anger,fear,surprise,disgust,intensity,irony
+Me encantó el servicio,positive,0.8,0.0,0.0,0.0,0.1,0.0,4,0
+El producto es bueno,positive,0.6,0.0,0.0,0.0,0.0,0.0,3,0
+Estoy muy contento con la compra,positive,0.9,0.0,0.0,0.0,0.0,0.0,5,0
+La experiencia fue agradable,positive,0.5,0.0,0.0,0.0,0.1,0.0,2,0
+Me gustó bastante,positive,0.6,0.0,0.0,0.0,0.0,0.0,3,0
+
+No me gustó el producto,negative,0.0,0.3,0.4,0.0,0.0,0.2,3,0
+El servicio fue horrible,negative,0.0,0.2,0.6,0.0,0.0,0.4,4,0
+Estoy muy decepcionado,negative,0.0,0.5,0.3,0.0,0.0,0.2,4,0
+No volvería jamás,negative,0.0,0.2,0.5,0.1,0.0,0.3,4,0
+Fue una pérdida de tiempo,negative,0.0,0.4,0.4,0.0,0.0,0.3,3,0
+
+Está bien,neutral,0.2,0.0,0.0,0.0,0.0,0.0,1,0
+No está mal,neutral,0.3,0.0,0.0,0.0,0.0,0.0,1,0
+Correcto sin más,neutral,0.1,0.0,0.0,0.0,0.0,0.0,1,0
+Normal, lo esperado,neutral,0.1,0.0,0.0,0.0,0.0,0.0,1,0
+Ni bien ni mal,neutral,0.0,0.0,0.0,0.0,0.0,0.0,1,0
+
+Me encantó el producto, pero llegó tarde,mixed,0.6,0.2,0.0,0.0,0.1,0.0,3,0
+Buena calidad aunque la atención fue pésima,mixed,0.4,0.0,0.5,0.0,0.0,0.3,3,0
+El resultado es bueno, pero el proceso fue terrible,mixed,0.5,0.2,0.4,0.0,0.0,0.2,4,0
+Me gustó, aunque esperaba más,mixed,0.4,0.2,0.1,0.0,0.0,0.0,2,0
+Funciona bien, pero no lo recomendaría,mixed,0.3,0.2,0.2,0.0,0.0,0.1,3,0
+
+Me gustó muchísimo!!!,positive,0.9,0.0,0.0,0.0,0.2,0.0,5,0
+Lo odié con toda mi alma,negative,0.0,0.4,0.7,0.0,0.0,0.4,5,0
+Me dio un poco de miedo usarlo,negative,0.0,0.1,0.0,0.5,0.0,0.0,2,0
+Estoy algo decepcionado,negative,0.0,0.3,0.2,0.0,0.0,0.1,2,0
+Me sorprendió para bien,positive,0.6,0.0,0.0,0.0,0.5,0.0,3,0
+
+Sí, claro… excelente servicio,negative,0.0,0.3,0.4,0.0,0.0,0.2,3,1
+Un producto 'maravilloso',negative,0.0,0.2,0.3,0.0,0.0,0.2,2,1
+Perfecto, justo lo que NO quería,negative,0.0,0.3,0.5,0.0,0.0,0.2,3,1
+Genial 🙄,negative,0.0,0.2,0.3,0.0,0.0,0.2,2,1
+Una experiencia fantástica… para olvidar,negative,0.0,0.4,0.4,0.0,0.0,0.3,4,1
+
+Me encantó 😍,positive,0.8,0.0,0.0,0.0,0.1,0.0,4,0
+Fatal 😡,negative,0.0,0.2,0.7,0.0,0.0,0.4,4,0
+No me gustó nada 😞,negative,0.0,0.5,0.3,0.0,0.0,0.2,3,0
+Está bien 🙂,neutral,0.3,0.0,0.0,0.0,0.0,0.0,1,0
+Qué sorpresa tan desagradable 😒,negative,0.0,0.3,0.4,0.0,0.3,0.2,3,0
