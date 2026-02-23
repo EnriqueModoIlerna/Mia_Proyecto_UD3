@@ -1,0 +1,11 @@
+spaCy
+
+nltk
+
+pandas
+
+emoji
+
+scikit-learn
+
+transformers
