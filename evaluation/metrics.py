@@ -92,3 +92,42 @@ def evaluate(csv_path, analyzer):
 
     return results, explanations
 
+# =========================
+# GUARDAR REPORTE
+# =========================
+
+def save_report(results, explanations, output_path="report.txt"):
+    """
+    Guarda métricas y ejemplos en archivo
+    """
+
+    with open(output_path, "w", encoding="utf-8") as f:
+
+        f.write("===== RESULTADOS EVALUACIÓN =====\n\n")
+        f.write(f"Samples: {results['samples']}\n")
+        f.write(f"Accuracy: {results['accuracy']:.4f}\n")
+        f.write(f"F1 Score: {results['f1_score']:.4f}\n\n")
+
+        f.write("Matriz de confusión:\n")
+        f.write(str(results["confusion_matrix"]) + "\n\n")
+
+        f.write("Reporte clasificación:\n")
+        f.write(results["classification_report"] + "\n")
+
+        f.write("\n===== EJEMPLOS =====\n\n")
+
+        for ex in explanations[:20]:
+            f.write(f"Texto: {ex['texto']}\n")
+            f.write(f"Real: {ex['real']} | Pred: {ex['pred']}\n")
+            f.write(f"Explicación: {ex['explicacion']}\n")
+            f.write("-" * 50 + "\n")
+
+
+# =========================
+# TEST MANUAL
+# =========================
+
+if __name__ == "__main__":
+    print("Este módulo no se ejecuta solo.")
+    print("Debe ser llamado desde main.py con un analizador.")
+
